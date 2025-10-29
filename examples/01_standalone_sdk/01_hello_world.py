@@ -6,7 +6,7 @@ from openhands.sdk import LLM, Conversation
 from openhands.tools.preset.default import get_default_agent
 
 
-# Configure LLM and agent
+# Configure LLM and agents
 # You can get an API key from https://app.all-hands.dev/settings/api-keys
 api_key = os.getenv("LLM_API_KEY")
 assert api_key is not None, "LLM_API_KEY environment variable is not set."
